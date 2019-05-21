@@ -1,0 +1,35 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .sk-posts-slider-wrapper {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+
+	> * {
+		flex: 0 0 auto;
+	}
+
+	&.slick-has-1-columns > * {
+		width: 100%;
+	}
+	&.slick-has-2-columns > * {
+		width: 50%;
+	}
+	&.slick-has-3-columns > * {
+		width: calc(100% / 3);
+	}
+	&.slick-has-4-columns > * {
+		width: calc(100% / 4);
+	}
+	&.slick-has-5-columns > * {
+		width: calc(100% / 5);
+	}
+	&.slick-has-6-columns > * {
+		width: calc(100% / 6);
+	}
+}

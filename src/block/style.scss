@@ -1,0 +1,28 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.sk-posts-slider-item > .sk-blog-item-link {
+	position: relative;
+	display: block;
+	> img {
+		display: block;
+	}
+}
+.sk-posts-slider-item .sk-blog-item-content {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(#000, 0.6);
+	left: 0;
+	width: 100%;
+	padding: 24px;
+}
+
+.sk-posts-slider-item .sk-blog-item-content__title {
+	color: #fff;
+	margin: 0;
+	word-break: normal;
+	hyphens: manual;
+}
